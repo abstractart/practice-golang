@@ -24,6 +24,6 @@ func Newton(zi float64, x float64) float64 {
 	return zi - ((zi*zi)-x)/(2*zi)
 }
 
-func main() {
-	fmt.Println(Sqrt(9))
-}
+// func main() {
+// 	fmt.Println(Sqrt(9))
+// }
