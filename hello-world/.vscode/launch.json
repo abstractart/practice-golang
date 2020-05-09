@@ -10,6 +10,16 @@
             "request": "launch",
             "mode": "auto",
             "program": "${file}"
+        },
+        {
+            "name": "Delve into Docker",
+            "type": "go",
+            "request": "attach",
+            "mode": "remote",
+            "remotePath": "/go/src/github.com/abstractart/hello-world",
+            "port": 40000,
+            "host": "172.17.0.2",
+            "showLog": true
         }
     ]
 }
